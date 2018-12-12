@@ -1,15 +1,18 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigmaSharp", "FigmaSharp\FigmaSharp.csproj", "{AD306162-8DAD-4DBD-B264-BDA8765CC107}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleFigmaMac", "ExampleFigmaMac\ExampleFigmaMac.csproj", "{6B3ED949-8155-4029-89B0-68AEC8EDC255}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigmaSharp.Cocoa", "FigmaSharp.Cocoa\FigmaSharp.Cocoa.csproj", "{C16867FC-93FC-4E4C-B4DF-6F40D9615E01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoDevelop.Figma", "MonoDevelop.Figma\MonoDevelop.Figma.csproj", "{C999739F-24D6-4649-A223-67FBC26A358B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonoDevelop.Figma", "MonoDevelop.Figma\MonoDevelop.Figma.csproj", "{C999739F-24D6-4649-A223-67FBC26A358B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigmaDocumentExporter.Cocoa", "FigmaDocumentExporter\FigmaDocumentExporter.Cocoa.csproj", "{EE526CFA-BA83-4EB6-89A4-CEE6E7B6945B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigmaSharp.XamarinForms", "FigmaSharp.XamarinForms\FigmaSharp.XamarinForms.csproj", "{5FB74DFC-F5C2-49F8-9216-297B4692F315}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,5 +40,15 @@ Global
 		{EE526CFA-BA83-4EB6-89A4-CEE6E7B6945B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE526CFA-BA83-4EB6-89A4-CEE6E7B6945B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE526CFA-BA83-4EB6-89A4-CEE6E7B6945B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FB74DFC-F5C2-49F8-9216-297B4692F315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FB74DFC-F5C2-49F8-9216-297B4692F315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FB74DFC-F5C2-49F8-9216-297B4692F315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FB74DFC-F5C2-49F8-9216-297B4692F315}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52D4EE17-543E-4E22-9FED-C3CD93A90C94}
 	EndGlobalSection
 EndGlobal

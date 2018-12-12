@@ -53,6 +53,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extensions\ColorExtensions.cs" />
+    <Compile Include="Extensions\FigmaViewExtensions.cs" />
+    <Compile Include="Extensions\FontExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
